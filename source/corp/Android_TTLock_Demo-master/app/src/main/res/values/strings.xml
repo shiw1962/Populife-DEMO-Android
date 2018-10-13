@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">TTLockDemo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="operate">
+        <item>Click Unlock</item>
+        <item>Set Admin Code</item>
+        <item>Set Erase-all Code</item>
+        <item>Set Lock Time</item>
+        <item>Reset Password</item>
+        <item>Reset EKey</item>
+        <item>Reset Lock</item>
+        <item>Read Lock Log</item>
+        <item>Read Lock Time</item>
+        <item>Send e-Key</item>
+        <item>Get Password</item>
+
+        <item>Pad Lock Up(Only Pad Lock)</item>
+        <item>Pad Lock Down</item>
+        <item>Device Firmware Upgrade</item>
+    </string-array>
+
+
+    <string-array name="pwd_type">
+        <item>Permanent</item>
+        <item>Period</item>
+        <item>Cyclic</item>
+        <item>Once</item>
+    </string-array>
+
+    <string-array name="wheel_data">
+        <item>Weekend</item>
+        <item>Daily</item>
+        <item>Workday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="words_online">Online</string>
+    <string name="words_offline">Offline</string>
+    <string name="words_lock_num">Count:</string>
+
+    <string name="words_maohao"> - </string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_sure">OK</string>
+
+    <string name="words_unlock_successed">Unlock successfully!</string>
+    <string name="words_lock_successed">Lock successfully!</string>
+    <string name="words_set_lock_time_successed">Set lock time successed</string>
+    <string name="words_lock_time">Lock time:%1$s</string>
+    <string name="words_lock_reset_key_invalid">This lock has been reset，the key </string>
+    <string name="words_lock_init_successed">Lock init successed</string>
+    <string name="words_lock_init_failed">Lock init failed</string>
+    <string name="words_lock_add_successed_and_init">Lock add successed and uploading data</string>
+    <string name="words_lock_flag_pos">Reset e-key successed，flag:</string>
+    <string name="words_lock_flag_upload_successed">Lock flag position upload successed</string>
+    <string name="words_lock_flag_upload_failed">Lock flag position upload failed</string>
+    <string name="words_set_admin_code_successed">Set admin code successed:</string>
+    <string name="words_set_delete_code_successed">Set erase-all code successed:</string>
+    <string name="words_delete_password_successed">Delete password via bluetooth successed</string>
+    <string name="words_upload_log_successed">Upload log successed</string>
+    <string name="words_log">Log:</string>
+    <string name="words_delete">Delete</string>
+    <string name="words_not_admin">Not Admin</string>
+    <string name="words_delete_ekey_successed">delete key successed</string>
+    <string name="words_wait">waiting...</string>
+    <string name="words_input_admin_code">input admin code</string>
+    <string name="words_input_clear_code">input erase-all code</string>
+    <string name="words_input_time">input time</string>
+    <string name="words_input_receiver_name">input receiver account, default sent permanent key</string>
+    <string name="words_preparing">Preparing</string>
+    <string name="words_upgrading">Updating now</string>
+    <string name="words_recovering">Restoring</string>
+    <string name="words_upgrade_successed">Upgrade successed</string>
+    <string name="words_upgrade_failed">Upgrade failed</string>
+
+    <string name="is_the_lastest_version">No updates</string>
+    <string name="new_version_found">New version found</string>
+    <string name="unknown_lock_version">Unknown lock version</string>
+    <string name="words_is_read_device_info">Read Device Firmware Information?</string>
+    <string name="words_is_retry">Retry?</string>
+    <string name="words_is_upgrade">Upgrade?</string>
+    <string name="words_check_input">Must not be null!</string>
+    <string name="words_time_out">Time out</string>
+    <string name="words_gateway_init_successed">Gateway init successed</string>
+    <string name="words_gateway_delete_successed">Gateway delete successed</string>
+    <string name="words_authorize_successed">Authorize successed</string>
+
+    <string name="words_account">account</string>
+    <string name="words_enter_account">enter account</string>
+    <string name="words_password">password</string>
+    <string name="words_enter_password">enter password</string>
+    <string name="words_authorize">authorize</string>
+    <string name="words_access_token">access token</string>
+    <string name="words_open_id_info">ttlock user id</string>
+    <string name="words_add_gateway">add gateway</string>
+    <string name="words_gateway_list">gateway list</string>
+    <string name="words_wifi_name">WIFI name</string>
+    <string name="words_wifi_password">WIFI password</string>
+    <string name="words_account_password">Account password</string>
+    <string name="words_enter_gateway_password">enter WIFI password</string>
+    <string name="words_enter_account_password">enter account password</string>
+    <string name="words_ok">OK</string>
+    <string name="check_version">Check for UPDATE</string>
+    <string name="words_status">status</string>
+    <string name="words_version_info">Version information</string>
+    <string name="words_has_exist_lock">already exist this lock</string>
+    <string name="words_admin">admin</string>
+    <string name="words_user">user</string>
+    <string name="words_battery">battery</string>
+    <string name="words_customized_passcode">customized</string>
+    
+    <string name="words_start_date">Start Date</string>
+    <string name="words_end_date">End Date</string>
+    <string name="words_get_passcode">Get Passcode</string>
+    <string name="words_set_passcode">Set Passcode</string>
+    <string name="input_keyboard_passcode_notify">4 - 9 Digits in length</string>
+
+    <string name="words_passcode_list">Passcode List</string>
+    <string name="words_delete_by_bluetooth">delete by bluetooth</string>
+    <string name="words_delete_by_gateway">delete by gateway</string>
+    <string name="words_permanent">Permanent</string>
+    <string name="words_period">Period</string>
+    <string name="words_cyclic">Cyclic</string>
+    <string name="words_once">Once</string>
+    <string name="words_not_null">Can\'t be NULL.</string>
+    <string name="valid_length">Invalid Passcode Length</string>
+</resources>
